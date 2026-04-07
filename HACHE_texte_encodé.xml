@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Les Liaisons dangereuses: lettres recueillies dans une société, et publiées pour l'instruction</title>
+            <author>
+               <name>Pierre-Ambroise-François Choderlos de Laclos</name>
+               <!--<date>1741-1803</date>-->
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Wikisource : la bibliothèque Libre</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson>
+               <person xml:id="Vol_001">
+                  <persName>Madame de Volanges :</persName>
+                  <affiliation>Mère de Cécile de Volanges</affiliation>
+                  <idno type="wikidata">Q65418354</idno>
+               </person>
+               <person xml:id="Vol_002">
+                  <persName>Cécile de Volanges :</persName>
+                  <affiliation>Fille de Madame de Volanges</affiliation>
+                  <age>15 ans</age>
+                  <idno type="wikidata">Q3009808</idno>
+               </person>
+               <person xml:id="Mert_001">
+                  <persName>Marquise de Merteuil :</persName>
+                  <affiliation>Amante du Vicomte de Valmont, et l'un des personnages principaux du roman.</affiliation>
+                  <age>Une vingtaine d'années</age>
+                  <idno type="wikidata">Q3294811</idno>
+               </person>
+               <person xml:id="Dan_001">
+                  <persName>M. Danceny :</persName>
+                  <affiliation>Futur mari de Cécile de Volanges</affiliation>
+                  <age>18 ans</age>
+                  <idno type="wikidata">Q3013354</idno>
+               </person>
+               <person xml:id="Ros_001">
+                  <persName>Madame de Rosemonde :</persName>
+                  <affiliation>Tante du Vicomte de Valmont</affiliation>
+                  <age>84 ans</age>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="Hol_001">
+                  <placeName>Hollande</placeName>
+                  <location>
+                     <geo>52°15'0"N, 4°40'1"E</geo>
+                  </location>
+                  <idno type="wikidata">Q55</idno>
+               </place>
+               <place xml:id="Par_001">
+                  <placeName>Paris</placeName>
+                  <location>
+                     <geo>48°51'24"N, 2°21'8"E</geo>
+                  </location>
+                  <idno type="wikidata">Q90</idno>
+               </place>
+               <place xml:id="Mal_001">
+                  <placeName>Malte</placeName>
+                  <location>
+                     <geo>35°53'N, 14°27'E</geo>
+                  </location>
+                  <idno type="wikidata">Q233</idno>
+               </place>
+            </listPlace>
+            <biblStruct>
+               <monogr>
+                  <editor>Librairie Universelle de J. Rozez</editor>
+                  <title>Les liaisons dangereuses: lettres recueillies dans une société, et publiées pour l'instruction</title>
+                  <imprint>
+                     <pubPlace>Bruxelles</pubPlace>
+                     <publisher>J. Rozez</publisher>
+                     <date>1869</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="fr">français</language>
+        </langUsage>
+        <creation>
+           <date>1782</date>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="288"/>
+         <div type="letter">
+            <opener>
+               <title>Lettre CLXXV.</title>
+               <persName ref="#Vol_001">Madame de Volanges</persName> à <persName ref="#Ros_001">madame de Rosemonde.</persName>
+            </opener>
+         <p>Le sort de <persName ref="#Mert_001">madame de Merteuil</persName> paraît enfin rempli, ma chère &amp; digne amie ;
+            &amp; il est tel que ses plus grands ennemis sont partagés entre l’indignation qu’elle
+            mérite, &amp; la pitié qu’elle inspire. J’avais bien raison de dire que ce serait peut-être
+            un bonheur pour elle de mourir de sa petite vérole. Elle en est revenue, il est
+            vrai, mais affreusement défigurée ; &amp; elle y a particulièrement perdu un œil.
+            Vous jugez bien que je ne <pb n="289"/>l’ai pas revue ; mais on m’a dit qu’elle était vraiment
+            hideuse.</p>
+         <p>Le <persName>marquis de ***</persName>, qui ne perd pas l’occasion de dire une méchanceté, disait
+            hier, en parlant d’elle, que la maladie l’avait retournée, &amp; qu’à présent son âme
+            était sur sa figure. Malheureusement tout le monde trouva que l’expression était 
+            juste.</p>
+         <p>Un autre événement vient d’ajouter encore à ses disgrâces &amp; à ses torts.
+            Son procès a été jugé avant-hier, &amp; elle l’a perdu tout d’une voix. Dépens,
+            dommages &amp; intérêts, restitution des fruits, tout a été adjugé aux mineurs : en
+            sorte que le peu de sa fortune qui n’était pas compromis dans ce procès est 
+            absorbé, &amp; au delà, par les frais. </p>
+         <p>Aussitôt qu’elle a appris cette nouvelle, quoique malade encore, elle a fait
+            ses arrangements, &amp; est partie seule dans la nuit &amp; en poste. Ses gens disent
+            aujourd’hui qu’aucun d’eux n’a voulu la suivre. On croit qu’elle a pris la route de 
+            la <placeName ref="#Hol_001">Hollande</placeName>. </p>
+         <p>Ce départ fait plus crier encore que tout le reste ; en ce qu’elle a emporté
+            ses diamants, objet très considérable, qui devait rentrer dans la succession de
+            <persName>son mari</persName>, son argenterie, ses bijoux ; enfin, tout ce qu’elle a pu, &amp; qu’elle laisse
+            après elle pour près de 50,000 liv. de dettes. C’est une véritable banqueroute. </p>
+         <p>La famille doit s’assembler demain pour voir à prendre des arrangements
+            avec les créanciers. Quoique parente bien éloignée, j’ai offert d’y concourir ;
+            mais je ne me trouverai pas à cette assemblée, devant assister à une cérémonie 
+            plus triste encore. <persName ref="#Vol_002">Ma fille</persName> prend <pb n="290"/>demain l’habit de postulante. J’espère que vous
+            n’oublierez pas, ma chère amie, que dans ce grand sacrifice que je fais, je n’ai
+            d’autre motif, pour m’y croire obligée, que le silence que vous avez gardé vis-à-
+            vis de moi. </p>
+         <p><persName ref="#Dan_001">M. Danceny</persName> a quitté <placeName ref="#Par_001">Paris</placeName>, il y a près de quinze jours. On dit qu’il va passer
+            à <placeName ref="#Mal_001">Malte</placeName>, &amp; qu’il a le projet de s’y fixer. Il serait peut-être encore temps de le
+            retenir… Mon amie !… <persName ref="#Vol_002">ma fille</persName> est donc bien coupable !… Vous pardonnerez 
+            sans doute à une mère de ne céder que difficilement à cette affreuse certitude. </p>
+         <p>Quelle fatalité s’est donc répandue autour de moi depuis quelque temps, &amp; 
+            m’a frappée dans les objets les plus chers :<persName ref="#Vol_002">ma fille</persName> &amp; mon amie ! </p>
+         <p>Qui pourrait ne pas frémir en songeant aux malheurs que peut causer une 
+            seule liaison dangereuse ! &amp; quelles peines ne s’éviterait-on point en y
+            réfléchissant davantage ? Quelle femme ne fuirait pas au premier propos d’un
+            séducteur ? Quelle mère pourrait, sans trembler, voir une autre personne qu’elle
+            parler à sa fille ? Mais ces réflexions tardives n’arrivent jamais qu’après 
+            l’événement, &amp; l’une des plus importantes vérités, comme aussi peut-être des
+            plus généralement reconnues, reste étouffée &amp; sans usage dans le tourbillon de
+            nos mœurs inconséquentes.</p> 
+         <p>Adieu, ma chère &amp; digne amie ; j’éprouve en ce moment que notre raison,
+            déjà si insuffisante pour <pb n="291"/>prévenir nos malheurs, l’est encore davantage pour
+            nous en consoler.</p>
+            <closer>
+               <dateline> <name type="place">Paris,</name><date>ce 14 janvier 17…</date></dateline>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>
