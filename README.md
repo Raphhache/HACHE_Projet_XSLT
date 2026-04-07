@@ -6,13 +6,13 @@ Ce projet consiste en la transformation d'un texte issu d'un projet XML-TEI en H
 
 # Texte encodé 
 
-Mon projet XML-TEI avait pour but d'encoder trois textes issus de romans épistolaires francophones de l'époque moderne. J'ai choisi de ne sélectionner qu'un seul de ces trois textes pour la transformation en HTML. Mon choix s'est porté sur la lettre cent soixante-quinze des __Liaisons_dangereuses__, célèbre roman publié par Choderlos de Laclos en 1782.
+Mon projet XML-TEI avait pour but d'encoder trois textes issus de romans épistolaires francophones de l'époque moderne. J'ai choisi de ne sélectionner qu'un seul de ces trois textes pour la transformation en HTML. Mon choix s'est porté sur la lettre cent soixante-quinze des __Liaisons dangereuses__, célèbre roman publié par Choderlos de Laclos en 1782.
 
 J'ai choisi ce texte car j'apprécie particulièrement ce roman, que j'ai étudié au cours de mes études supérieures.
 
 # Contenu et organisation du dépôt 
 
-- HACHE_texte_encodé.xml : Lettre cent soixante-quinze des __Liaisons_dangereuses__ encodée en XML-TEI.
+- HACHE_texte_encodé.xml : Lettre cent soixante-quinze des __Liaisons dangereuses__ encodée en XML-TEI.
   
 - HACHE_feuille_style.xsl : Feuile de style XSL permettant la transformation.
   
